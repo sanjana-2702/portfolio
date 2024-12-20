@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    /* text-decoration: none; */
+}
+body{
+    background: linear-gradient(to right, rgb(253, 252, 252),rgb(237, 195, 151));
+}
+#navbar
+{
+    background-color: burlywood;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+#name{
+    margin-left: 40%;
+}
+#name h2{
+    font-size: 30px;
+    color: #fff;
+}
+#menu ul{
+    display: flex;
+    gap: 15px;
+}
+a{
+    font-size: 15px;
+    text-decoration: none; 
+    color: rgb(85, 39, 127);
+}
+#home{
+    margin-top: 5%;
+}
+#home h3{
+    text-align: right;  
+}
+#home p{
+    font-size: 35px;
+    text-align: right;
+}
+hr{
+    margin-top: 10%;
+}
+/* #contact-tag{
+    display: flex;
+} */
+
+.section{
+    padding: 60px 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    /* justify-content: center; */
+}
+.section p{
+    font-size: 20px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.grid{
+    display: flex; 
+    justify-content: space-around;
+     margin-top: 10px; 
+    
+}
+.main{
+    background-color: rgb(216, 167, 167);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 0 rgb(0,0,0.1);
+    width: 35%;
+    text-align: center;
+}
+#about h2 {
+    text-align: center;
+    margin: 30px;
+
+}
+img{
+    height:300px ;
+    width:300px ;
+    
+}
+
+#main1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
